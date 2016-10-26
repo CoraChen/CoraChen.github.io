@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mistyrose;
+}
+span{
+    margin-left: 400px
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    display: inline;
+    color: hotpink;
+}
+
+
+h3{
+    font-size: 3em;
+    font-family: "Chalkboard SE", Helvetica, sans-serif;
+    color: orangered
+
+}
+
+.bigtext{
+    font-size: 2em;
+    font-family: "Comic Sans MS",Helvetica, sans-serif;
+}
+
+.hobby{
+    font-size: 1.5em;
+    font-family: "Bradley Hand" , Helvetica, sans-serif;
+}
+
+.travel{
+    font-size: 1.5em;
+    font-family: "Comic Sans MS",Helvetica, sans-serif;
+}
+span img{
+    display: inline;
+}
+
+
+.row{
+    overflow:hidden;
+}
+
+.two-thirds-coloum{
+    width:66.66%
+}
+.one-thirds-coloum{
+    width:33.33%
+}
+.one-thirds-colum{
+    width:33.33%
+}
+.two-thirds-colum{
+    width:66.66%
+}
+
+.col-img{
+    width:100%;
+    height: auto;
+}
+.col-sing{
+    width:100%;
+    height: auto;
+}
+
+.travelImages{
+    width:20%;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Classes */
+
+.box {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px dashed rosybrown;
+}
+
+.MistyRose  {
+    background-color: #FFE4E1;
+}
+
+
+.column {
+    float: left;
+    position: relative;
+    
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+
+/* ids */
+
+#MainMenu ul {
+    background-color:#FFFACD ;
+    padding: 20px;
+    margin: 20px;
+}
+
+#MainMenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#MainMenu li a {
+    color: lightcoral;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    background-color:#FFFACD;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .order-1 {
+        order: 0;
+    }
+    .order-2 {
+        order: 1;
+    }
+}
